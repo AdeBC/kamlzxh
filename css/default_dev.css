@@ -1,10 +1,25 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFEE;
-	font-size: 12px;
-	overflow: auto;
+	background: #000000;
+	font-size: 24px;
+	width: 100vw;
+	overflow: hidden;
 }
+
+
+html {
+	overflow-y: scroll;
+  }
+  
+  :root {
+	overflow-y: auto;
+	overflow-x: hidden;
+  }
+  
+  :root body {
+	position: absolute;
+  }
 
 #mainDiv{
 	width: 100%;
@@ -67,10 +82,10 @@ body {
 #code {
 	float: left;
 	width: 440px;
-	height: 400px;
-	color: #333;
+	height: 440px;
+	color: #D0D0D0;
 	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-	font-size: 12px;
+	font-size: 15px;
 }
 
 #code .string{
